@@ -77,6 +77,19 @@ void linearConvo(int* x, int szX, int* y, int szY, int* z)
 
 }
 
+void circleConvo(int* x, int szX, int* y, int szY, int* z)
+{
+	int i,j;
+
+	while(szX<szY)
+		x[szX++] = 0;
+	while(szY<szX)
+		y[szY++] = 0;
+
+	// REVERSE TRAVERSE THE ARRAY
+
+}
+
 void initZero(int* x, int szX)
 {
 	int i;
